@@ -1,2 +1,7 @@
-# culture
-Vue+Koa2+Mysql+Element ui+Vant ui+ANTV “非遗百科”App的设计与开发
+运行时请先安装项目依赖 npm install
+
+该项目主要为整合我国非遗项目的内容平台
+
+admin-cilent为后台管理系统 client为客户端 server是用koa2开发的项目的服务端 项目采用前后端分离的模式
+
+可以加本人的qq：839214860 提出意见和建议 大家一起共同学习进步
