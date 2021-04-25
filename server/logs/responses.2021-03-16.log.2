@@ -1,0 +1,3449 @@
+[2021-03-16T20:35:36.236] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 6,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2021-03-16T20:36:40.586] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: '3001', u_password: '1001', role: 3 },
+  costTime: 81,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '登录成功', data: [Object] }
+  }
+}
+[2021-03-16T20:36:40.982] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 296,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T20:36:41.959] [INFO] response - {
+  method: 'GET',
+  url: '/api/getType',
+  body: {},
+  costTime: 375,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类信息获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:01:25.896] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: 'admin', u_password: '1001', role: 1, code: '4776' },
+  costTime: 54,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '登录成功', data: [Object] }
+  }
+}
+[2021-03-16T21:01:26.109] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 158,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:01:28.336] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1247,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:01:30.364] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2816,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:01:35.044] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 137,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:01:35.514] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 260,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-16T21:01:35.756] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 184,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:01:46.869] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 6,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 215,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-16T21:01:49.718] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 8,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 184,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-16T21:01:51.908] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 7,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 174,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-16T21:01:53.006] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 8,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 202,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-16T21:01:57.056] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 216,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:01:57.423] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 189,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:01:59.668] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 202,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:02:00.679] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 165,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:02:01.424] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllTrend',
+  body: { currentPage: 1, pageSize: 5, u_userId: '', t_type: '', t_like: '' },
+  costTime: 343,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有动态信息', data: [Object] }
+  }
+}
+[2021-03-16T21:02:47.297] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllTrend',
+  body: { currentPage: 3, pageSize: 5, u_userId: '', t_type: '', t_like: '' },
+  costTime: 233,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有动态信息', data: [Object] }
+  }
+}
+[2021-03-16T21:03:08.037] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 157,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:08.450] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllNews',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    n_source: '',
+    n_author: '',
+    n_title: '',
+    sort_id: '',
+    reorder: '3'
+  },
+  costTime: 245,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有文章', data: [Object] }
+  }
+}
+[2021-03-16T21:03:20.154] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 156,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:20.605] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 298,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:03:30.182] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 158,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:31.639] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 146,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:32.339] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 298,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:03:43.762] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 229,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:45.214] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 142,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:45.656] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 326,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:03:57.710] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 166,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:03:59.031] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1173,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:04:00.424] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2195,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:08:11.247] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 253,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:08:14.105] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1658,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:08:15.562] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2742,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:09:05.027] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 768,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:09:23.155] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 283,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:09:26.665] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1191,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:10:09.700] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 787,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:10:17.459] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 361,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:10:21.240] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 948,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:10:36.327] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 446,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:10:39.756] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 950,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:10:59.692] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 270,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:11:03.313] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 958,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:11:41.679] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1463,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:11:43.506] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2971,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:11:46.344] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 246,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:11:50.713] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 2352,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:11:53.046] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 4658,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:12:03.920] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 338,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:12:08.664] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1741,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:12:10.050] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 3107,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:12:23.910] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1165,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:12:25.742] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2571,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:13:24.493] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 212,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:13:26.804] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1317,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:13:28.472] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2971,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:13:38.549] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 341,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:13:43.152] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 2125,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:13:44.774] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 3724,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:14:28.839] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 409,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:14:32.903] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1828,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:14:34.539] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 3428,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:14:56.391] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 273,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:15:00.047] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1747,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:15:01.979] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 3404,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:15:27.543] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 803,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:15:29.639] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2564,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:15:33.847] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 106,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:15:34.239] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 225,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:15:41.870] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 178,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:15:43.104] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1034,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:15:44.481] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2084,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:17:43.185] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 652,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:17:44.356] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1665,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:17:47.236] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 131,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:17:47.597] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 223,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:17:48.686] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 126,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:17:49.382] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 587,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:17:50.633] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1476,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:18:32.276] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 747,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:18:33.287] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1552,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:00.550] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 739,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:01.534] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1681,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:07.022] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 192,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:19:09.934] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1082,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:11.941] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 3067,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:34.021] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 196,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:19:37.344] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1406,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:38.603] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2648,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:19:56.419] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 200,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:19:59.696] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1295,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:20:02.361] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 3879,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:20:21.149] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 244,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:20:24.593] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1348,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:20:26.229] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2714,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:23:21.627] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 905,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:23:22.603] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1829,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:23:41.471] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 201,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:23:44.788] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 1311,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:23:46.106] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 2497,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:23:50.685] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 121,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:23:51.452] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 266,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:23:52.361] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 121,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:23:53.581] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 761,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:23:54.468] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1661,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:24:04.785] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 109,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:24:05.152] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 219,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:24:13.989] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 118,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:24:15.204] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 745,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:24:16.150] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1707,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:24:20.757] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 180,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:24:21.116] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 243,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:24:25.070] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 116,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:24:25.960] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 727,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:24:27.105] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1579,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:26:00.379] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 170,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:26:00.807] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 263,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:26:02.205] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 136,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:26:03.205] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 715,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:26:04.719] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1981,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:30:50.756] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 126,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:30:51.239] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 295,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:30:52.173] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 115,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:30:52.975] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 661,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:30:54.399] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1755,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:32:44.979] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 182,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:32:45.403] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 230,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:32:46.095] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 135,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:32:47.181] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 874,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:32:48.584] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1930,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:33:50.757] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 183,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:33:51.273] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 320,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:33:52.049] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 121,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:33:53.075] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 887,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:33:54.355] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1810,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:36:44.034] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 135,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:36:44.559] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 319,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:36:45.722] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 110,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:36:46.611] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 742,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:36:47.755] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1595,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:38:41.887] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 213,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:38:42.305] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 236,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:38:44.003] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 107,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:38:44.821] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 674,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:38:46.055] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1599,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:38:51.324] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 134,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:38:52.038] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 285,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:38:52.407] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 117,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:38:53.607] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 781,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:38:54.500] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1686,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:39:11.057] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 118,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:39:11.775] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 301,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:39:12.938] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 114,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:39:14.142] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 767,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:39:15.068] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1667,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:39:19.996] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 134,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:39:20.729] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 241,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:39:21.554] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 114,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:39:22.682] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 738,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:39:23.648] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1572,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:40:05.975] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 110,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:40:06.607] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 219,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T21:40:08.116] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 105,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:40:09.307] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 761,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:40:10.269] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1698,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T21:40:15.346] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 171,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T21:40:16.098] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllConvention',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    c_name: '',
+    c_company: '',
+    publish_id: '',
+    type_id: '',
+    province_id: ''
+  },
+  costTime: 279,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有非遗数据', data: [Object] }
+  }
+}
+[2021-03-16T22:13:53.384] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: 'admin', u_password: '1001', role: 1, code: '5348' },
+  costTime: 30,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '登录成功', data: [Object] }
+  }
+}
+[2021-03-16T22:13:53.596] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 174,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T22:13:55.398] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 834,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T22:13:56.768] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1869,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-03-16T22:14:01.283] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 101,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-16T22:14:01.711] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 227,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-16T22:14:01.933] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 139,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-03-16T22:14:23.098] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 116,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': 'http://localhost:8080',
+      'access-control-allow-credentials': 'true',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}

@@ -1,0 +1,433 @@
+[2021-04-02T00:26:44.531] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceTypeNum/20',
+  body: {},
+  costTime: 242,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份分类总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T00:26:55.230] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 54,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-04-02T00:26:56.813] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 546,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T00:26:57.504] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1116,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T00:27:02.349] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceTypeNum/20',
+  body: {},
+  costTime: 260,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份分类总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T00:57:48.080] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 1,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2021-04-02T00:57:56.269] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: 'admin', u_password: '1001', role: 1, code: '5022' },
+  costTime: 95,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '登录成功', data: [Object] }
+  }
+}
+[2021-04-02T00:57:56.774] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 156,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-04-02T00:57:57.569] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 688,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T00:57:59.185] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1902,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T00:58:03.081] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 136,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-04-02T00:58:03.851] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 326,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-04-02T00:58:04.021] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 137,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-04-02T02:30:27.219] [INFO] response - {
+  method: 'GET',
+  url: '/api/getCity/20',
+  body: {},
+  costTime: 1,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2021-04-02T02:30:27.229] [INFO] response - {
+  method: 'GET',
+  url: '/api/getUserInfo/1001',
+  body: {},
+  costTime: 0,
+  response: {
+    status: 401,
+    message: 'Unauthorized',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'text/plain; charset=utf-8',
+      'content-length': '12'
+    },
+    body: 'Unauthorized'
+  }
+}
+[2021-04-02T02:30:38.080] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: 'admin', u_password: '1001', role: 1, code: '6352' },
+  costTime: 55,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '登录成功', data: [Object] }
+  }
+}
+[2021-04-02T02:30:38.441] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 39,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-04-02T02:30:39.036] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTypeNum',
+  body: {},
+  costTime: 380,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '分类总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T02:30:40.026] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvinceNum',
+  body: {},
+  costTime: 1201,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份总数获取成功', data: [Array] }
+  }
+}
+[2021-04-02T02:30:41.851] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 63,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-04-02T02:30:42.777] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 79,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-04-02T02:30:42.872] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 106,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-04-02T02:30:44.295] [INFO] response - {
+  method: 'GET',
+  url: '/api/getCity/20',
+  body: {},
+  costTime: 72,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '城市信息获取成功', data: [Array] }
+  }
+}
+[2021-04-02T02:30:44.581] [INFO] response - {
+  method: 'GET',
+  url: '/api/getUserInfo/1001',
+  body: {},
+  costTime: 65,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取用户信息', data: [user] }
+  }
+}

@@ -1,0 +1,218 @@
+[2021-03-17T02:48:12.197] [ERROR] error - {
+  method: 'GET',
+  url: '/2003.jpg',
+  body: undefined,
+  costTime: undefined,
+  err: Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:201:27) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'read',
+    headerSent: true
+  }
+}
+[2021-03-17T02:48:12.363] [ERROR] error - {
+  method: 'GET',
+  url: '/2001.jpg',
+  body: undefined,
+  costTime: undefined,
+  err: Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:201:27) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'read',
+    headerSent: true
+  }
+}
+[2021-03-17T02:48:12.544] [ERROR] error - {
+  method: 'GET',
+  url: '/2002.jpg',
+  body: undefined,
+  costTime: undefined,
+  err: Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:201:27) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'read',
+    headerSent: true
+  }
+}
+[2021-03-17T02:48:12.745] [ERROR] error - {
+  method: 'GET',
+  url: '/1001.jpg',
+  body: undefined,
+  costTime: undefined,
+  err: Error: read ECONNRESET
+      at TCP.onStreamRead (internal/stream_base_commons.js:201:27) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'read',
+    headerSent: true
+  }
+}
+[2021-03-17T21:03:00.617] [ERROR] error - {
+  method: 'POST',
+  url: '/api/upload',
+  body: {},
+  costTime: undefined,
+  err: TypeError: Cannot read property 'filename' of undefined
+      at upload (F:\server\controllers\news.js:144:25)
+      at dispatch (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+      at next (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+      at async F:\server\routes\api\user.js:18:5
+}
+[2021-03-17T21:03:03.254] [ERROR] error - {
+  method: 'POST',
+  url: '/api/upload',
+  body: {},
+  costTime: undefined,
+  err: TypeError: Cannot read property 'filename' of undefined
+      at upload (F:\server\controllers\news.js:144:25)
+      at dispatch (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+      at next (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+      at async F:\server\routes\api\user.js:18:5
+}
+[2021-03-17T21:03:41.018] [ERROR] error - {
+  method: 'POST',
+  url: '/api/upload',
+  body: {},
+  costTime: undefined,
+  err: TypeError: Cannot read property 'filename' of undefined
+      at upload (F:\server\controllers\news.js:144:25)
+      at dispatch (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+      at next (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+      at async F:\server\routes\api\user.js:18:5
+}
+[2021-03-17T21:04:22.317] [ERROR] error - {
+  method: 'POST',
+  url: '/api/upload',
+  body: {},
+  costTime: undefined,
+  err: TypeError: Cannot read property 'filename' of undefined
+      at upload (F:\server\controllers\news.js:144:25)
+      at dispatch (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+      at next (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+      at async F:\server\routes\api\user.js:18:5
+}
+[2021-03-17T21:04:27.664] [ERROR] error - {
+  method: 'POST',
+  url: '/api/upload',
+  body: {},
+  costTime: undefined,
+  err: TypeError: Cannot read property 'filename' of undefined
+      at upload (F:\server\controllers\news.js:144:25)
+      at dispatch (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+      at next (F:\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+      at async F:\server\routes\api\user.js:18:5
+}
+[2021-03-17T21:39:04.191] [ERROR] error - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: undefined,
+  err: ReferenceError: log is not defined
+      at Object.origin (F:\server\config\cors_config.js:7:4)
+      at cors (F:\server\node_modules\koa2-cors\dist\index.js:31:24)
+      at dispatch (F:\server\node_modules\koa-compose\index.js:42:32)
+      at F:\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+      at async serve (F:\server\node_modules\koa-static\index.js:53:9)
+      at async logger (F:\server\node_modules\koa-logger\index.js:67:7)
+      at async bodyParser (F:\server\node_modules\koa-bodyparser\index.js:86:5)
+      at async session (F:\server\node_modules\koa-session\index.js:41:7)
+      at async serve (F:\server\node_modules\koa-static\index.js:53:9)
+}
+[2021-03-17T21:39:40.280] [ERROR] error - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: '3001', u_password: '1001', role: 3 },
+  costTime: undefined,
+  err: ReferenceError: log is not defined
+      at Object.origin (F:\server\config\cors_config.js:7:4)
+      at cors (F:\server\node_modules\koa2-cors\dist\index.js:31:24)
+      at dispatch (F:\server\node_modules\koa-compose\index.js:42:32)
+      at F:\server\node_modules\koa-passport\lib\framework\koa.js:150:16
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+      at async serve (F:\server\node_modules\koa-static\index.js:53:9)
+      at async logger (F:\server\node_modules\koa-logger\index.js:67:7)
+      at async bodyParser (F:\server\node_modules\koa-bodyparser\index.js:86:5)
+      at async session (F:\server\node_modules\koa-session\index.js:41:7)
+      at async serve (F:\server\node_modules\koa-static\index.js:53:9)
+}
+[2021-03-17T21:48:32.715] [ERROR] error - {
+  method: 'GET',
+  url: '/t_1.mp4',
+  body: undefined,
+  costTime: undefined,
+  err: Error: write ECONNRESET
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'write',
+    headerSent: true
+  }
+}
+[2021-03-17T21:48:32.823] [ERROR] error - {
+  method: 'GET',
+  url: '/t_1.mp4',
+  body: undefined,
+  costTime: undefined,
+  err: Error: write ECONNRESET
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'write',
+    headerSent: true
+  }
+}
+[2021-03-18T01:41:42.222] [ERROR] error - {
+  method: 'GET',
+  url: '/t_1.mp4',
+  body: undefined,
+  costTime: undefined,
+  err: Error: write ECONNRESET
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'write',
+    headerSent: true
+  }
+}
+[2021-03-18T01:41:42.321] [ERROR] error - {
+  method: 'GET',
+  url: '/t_1.mp4',
+  body: undefined,
+  costTime: undefined,
+  err: Error: write ECONNRESET
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'write',
+    headerSent: true
+  }
+}
+[2021-03-18T01:44:28.526] [ERROR] error - {
+  method: 'GET',
+  url: '/t_1.mp4',
+  body: undefined,
+  costTime: undefined,
+  err: Error: write ECONNRESET
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'write',
+    headerSent: true
+  }
+}
+[2021-03-18T01:49:38.048] [ERROR] error - {
+  method: 'GET',
+  url: '/t_1.mp4',
+  body: undefined,
+  costTime: undefined,
+  err: Error: write ECONNRESET
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16) {
+    errno: 'ECONNRESET',
+    code: 'ECONNRESET',
+    syscall: 'write',
+    headerSent: true
+  }
+}

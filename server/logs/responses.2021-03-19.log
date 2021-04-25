@@ -1,0 +1,288 @@
+[2021-03-19T16:49:40.173] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllTrend',
+  body: { currentPage: 1, pageSize: 5, u_userId: '', t_type: '', t_like: '' },
+  costTime: 546,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有动态信息', data: [Object] }
+  }
+}
+[2021-03-19T16:49:42.824] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 170,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-19T16:49:43.205] [INFO] response - {
+  method: 'GET',
+  url: '/api/getTrendInfo/28',
+  body: {},
+  costTime: 221,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '动态获取成功', data: [trend] }
+  }
+}
+[2021-03-19T16:49:43.567] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllDiscuss',
+  body: { currentPage: 1, pageSize: 5, t_id: '28', u_userId: '' },
+  costTime: 289,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取评论成功', data: [Object] }
+  }
+}
+[2021-03-19T16:49:49.631] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 133,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-19T16:50:00.915] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 217,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-19T16:50:01.809] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 421,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-19T16:50:02.040] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 337,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-03-19T16:50:05.155] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '3029',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 194,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-19T16:50:07.007] [INFO] response - {
+  method: 'POST',
+  url: '/api/postAllUser',
+  body: {
+    currentPage: 1,
+    pageSize: 5,
+    u_userId: '',
+    u_name: '',
+    u_sex: '',
+    u_date: '',
+    u_star: '',
+    province_id: '',
+    city_id: '',
+    role: ''
+  },
+  costTime: 227,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取所有用户信息', data: [Object] }
+  }
+}
+[2021-03-19T16:50:13.471] [INFO] response - {
+  method: 'GET',
+  url: '/api/getCity/2',
+  body: {},
+  costTime: 325,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '城市信息获取成功', data: [Array] }
+  }
+}
+[2021-03-19T16:50:13.726] [INFO] response - {
+  method: 'GET',
+  url: '/api/getUserInfo/2001',
+  body: {},
+  costTime: 204,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取用户信息', data: [user] }
+  }
+}
+[2021-03-19T16:50:20.589] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 126,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}
+[2021-03-19T16:50:20.938] [INFO] response - {
+  method: 'GET',
+  url: '/api/getProvince',
+  body: {},
+  costTime: 171,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '省份信息获取成功', data: [Array] }
+  }
+}
+[2021-03-19T16:50:24.340] [INFO] response - {
+  method: 'GET',
+  url: '/api/userInfo',
+  body: {},
+  costTime: 201,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: 1, message: '获取个人信息', data: [user] }
+  }
+}

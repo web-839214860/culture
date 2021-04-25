@@ -1,0 +1,34 @@
+[2021-03-29T23:04:43.656] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: '123', u_password: '1001', role: 3 },
+  costTime: 221,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: -1, message: '用户暂未注册,请先前往注册' }
+  }
+}
+[2021-03-29T23:04:47.139] [INFO] response - {
+  method: 'POST',
+  url: '/api/postLogin',
+  body: { u_userId: '123', u_password: '1001111', role: 3 },
+  costTime: 10,
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      vary: 'Origin',
+      'access-control-allow-origin': '*',
+      'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization',
+      'content-type': 'application/json; charset=utf-8'
+    },
+    body: { code: -1, message: '用户暂未注册,请先前往注册' }
+  }
+}
